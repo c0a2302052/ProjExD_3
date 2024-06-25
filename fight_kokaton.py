@@ -142,6 +142,11 @@ class Bomb:
 
 
 class Score:
+    """
+    スコアを表示する、ビームが爆弾に当たったらスコアを1加算
+    引数：なし
+    戻り値：なし
+    """
     def __init__(self):
         self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
         self.color = (0, 0, 255)
