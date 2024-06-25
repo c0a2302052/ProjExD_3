@@ -184,7 +184,6 @@ def main():
                 time.sleep(5)
                 return
         
-
         for i, bomb in enumerate(bombs):
             for j, beam in enumerate(beams):
                 if bomb is not None and beam is not None:
