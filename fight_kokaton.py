@@ -174,7 +174,6 @@ def main():
                 beams.append(Beam(bird))            
         screen.blit(bg_img, [0, 0])
         
-        
         for bomb in bombs:
             if bird.rct.colliderect(bomb.rct):  # こうかとんと爆弾の衝突処理（ゲームオーバー）
                 fonto = pg.font.Font(None, 80)
